@@ -1,5 +1,6 @@
-import Head from 'next/head'
-
+import Head from "next/head";
+import Header from "../components/Header";
+import Nav from "../components/Nav";
 export default function Home() {
   return (
     <div className="">
@@ -8,10 +9,10 @@ export default function Home() {
         <meta name="description" content="This is movie app with next js." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    <main>
-      <h1>Hello</h1>
-    </main>
-     
+      <main>
+        <Header />
+        <Nav />
+      </main>
     </div>
-  )
+  );
 }

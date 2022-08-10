@@ -10,8 +10,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Header />
-        <Nav />
+        <div className="bg-slate-700 drop-shadow-md">
+          <Header />
+          <Nav />
+        </div>
       </main>
     </div>
   );

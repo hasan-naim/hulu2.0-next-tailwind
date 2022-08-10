@@ -10,7 +10,7 @@ import Image from "next/image";
 import HeaderIcon from "./HeaderIcon";
 function Header() {
   return (
-    <header className="bg-slate-700 drop-shadow-md">
+    <header className="">
       <div className="flex gap-4 flex-col px-7 py-5 sm:flex-row items-center justify-between">
         <div className="">
           <Image src="/hulu.svg" width={128} height={48} alt="hulu logo" />
